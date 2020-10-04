@@ -1,0 +1,65 @@
+body{
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+p{
+    font-size: 0.80rem;
+    margin: 0;
+}
+
+.cities{
+    margin: 50px;
+    background-color: #544F53;
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+
+.city{
+    display: inline-block;
+    margin-left: 30px;
+}
+.city-image{
+    display: inline-block;
+    position: relative;
+}
+.houston .city-image{
+    float: left;
+    bottom: 35px;
+}
+.houston .city-name{
+    clear:left;
+}
+.boston .city-image{
+    float: right;
+    bottom: 50px;
+}
+.boston .city-name{
+    clear: right;
+}
+
+.city-name{
+    text-align: left;
+}
+
+span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#AB1F83;
+    padding: 5px 10px;
+}
+img[alt="NewYork"] {
+    width: 150px; 
+    height: 200px;
+}
+img[alt="Boston"]{
+    width: 190px; 
+    height: 120px;
+}
+img[alt="Houston"]{
+    width: 230px; 
+    height: 150px;
+}
